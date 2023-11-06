@@ -1,0 +1,233 @@
+.button-primary {
+  align-items: center;
+  border-radius: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.button-primary .class {
+  color: var(--filltextbuttondisabled) !important;
+}
+
+.button-primary .class-2 {
+  color: var(--filltextbuttonprimary-inverse-default) !important;
+}
+
+.button-primary .class-3 {
+  color: #4989c2 !important;
+}
+
+.button-primary .class-4 {
+  color: var(--filltextbuttonprimary-inverse-pressed) !important;
+}
+
+.button-primary .class-5 {
+  color: var(--filltextbuttonprimary-pressed) !important;
+}
+
+.button-primary .class-6 {
+  color: #ffffff !important;
+}
+
+.button-primary .class-7 {
+  margin-bottom: -4px !important;
+  margin-top: -4px !important;
+  padding: 0px 8px !important;
+}
+
+.button-primary .class-8 {
+  margin-bottom: -4px !important;
+  margin-top: -4px !important;
+}
+
+.button-primary .min-width {
+  height: 1px;
+  object-fit: cover;
+  position: relative;
+}
+
+.button-primary.kids {
+  padding: 8px 16px;
+}
+
+.button-primary.small {
+  height: 32px;
+}
+
+.button-primary.status-disabled {
+  background-color: var(--backgroundbuttondisabled);
+}
+
+.button-primary.main {
+  height: 40px;
+  padding: 8px 16px;
+}
+
+.button-primary.teens {
+  padding: 8px 16px;
+}
+
+.button-primary.imagin.status-default {
+  background: linear-gradient(180deg, rgb(1, 235, 191) 0%, rgb(1, 246, 133) 100%);
+}
+
+.button-primary.status-pressed.imagin {
+  background: linear-gradient(180deg, rgb(0, 199, 161) 0%, rgb(0, 202, 109) 100%);
+}
+
+.button-primary.imagin.small {
+  padding: 8px 0px;
+}
+
+.button-primary.ambient-default.kids.status-default {
+  background: linear-gradient(180deg, rgb(106, 172, 231) 0%, rgb(73, 137, 194) 100%);
+}
+
+.button-primary.teens.ambient-inverse.status-default {
+  background-color: var(--backgroundbuttonprimary-inverse);
+}
+
+.button-primary.teens.status-pressed.ambient-inverse {
+  background-color: var(--backgroundbuttonprimary-inverse-pressed);
+}
+
+.button-primary.ambient-inverse.kids.status-default {
+  background-color: #ffffff;
+}
+
+.button-primary.teens.status-pressed.ambient-default {
+  background-color: var(--backgroundbuttonprimary-pressed);
+}
+
+.button-primary.status-pressed.ambient-inverse.kids {
+  background-color: #f5f5f5;
+}
+
+.button-primary.teens.ambient-default.status-default {
+  background-color: var(--backgroundbuttonprimary-default);
+}
+
+.button-primary.status-pressed.kids.ambient-default {
+  background-color: #2a557b;
+}
+
+.button-primary.main .min-width {
+  width: 148px;
+}
+
+.button-primary.status-pressed.ambient-default .min-width {
+  margin-right: -244px;
+}
+
+.button-primary.ambient-inverse.imagin .min-width {
+  margin-right: -10px;
+}
+
+.button-primary.teens.small .min-width {
+  margin-left: -304px;
+  width: 80px;
+}
+
+.button-primary.status-pressed.ambient-inverse .min-width {
+  margin-right: -10px;
+}
+
+.button-primary.status-pressed.kids .min-width {
+  margin-top: -546px;
+}
+
+.button-primary.status-pressed.imagin .min-width {
+  margin-top: -9px;
+}
+
+.button-primary.ambient-inverse.status-default .min-width {
+  margin-right: -10px;
+}
+
+.button-primary.ambient-inverse.kids .min-width {
+  margin-right: -10px;
+}
+
+.button-primary.imagin.small .min-width {
+  margin-left: -304px;
+  width: 112px;
+}
+
+.button-primary.small.status-disabled .min-width {
+  margin-top: -82px;
+}
+
+.button-primary.kids.small .min-width {
+  margin-left: -303px;
+  width: 80px;
+}
+
+.button-primary.imagin.small.status-default .min-width {
+  margin-bottom: -32px;
+}
+
+.button-primary.kids.small.status-default .min-width {
+  margin-top: -490px;
+}
+
+.button-primary.main.status-default.ambient-default .min-width {
+  margin-right: -244px;
+}
+
+.button-primary.main.imagin.status-default .min-width {
+  margin-bottom: -28px;
+}
+
+.button-primary.ambient-default.kids.status-disabled .min-width {
+  margin-right: -244px;
+}
+
+.button-primary.main.kids.status-default .min-width {
+  margin-top: -486px;
+}
+
+.button-primary.main.kids.status-disabled .min-width {
+  margin-top: -611px;
+}
+
+.button-primary.teens.main.status-disabled .min-width {
+  margin-top: -340px;
+}
+
+.button-primary.teens.ambient-default.status-disabled .min-width {
+  margin-right: -249px;
+}
+
+.button-primary.main.imagin.status-disabled .min-width {
+  margin-top: -74px;
+}
+
+.button-primary.main.imagin.ambient-default .min-width {
+  margin-right: -244px;
+}
+
+.button-primary.teens.status-pressed.small .min-width {
+  margin-top: -224px;
+}
+
+.button-primary.teens.status-default.small .min-width {
+  margin-top: -224px;
+}
+
+.button-primary.teens.status-pressed.main .min-width {
+  margin-top: -280px;
+}
+
+.button-primary.main.kids.ambient-default .min-width {
+  margin-right: -244px;
+}
+
+.button-primary.teens.main.status-default .min-width {
+  margin-top: -220px;
+}
+
+.button-primary.teens.ambient-inverse.status-disabled .min-width {
+  margin-right: -15px;
+}

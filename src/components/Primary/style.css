@@ -1,0 +1,41 @@
+.primary {
+  align-items: center;
+  display: inline-flex;
+  height: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.primary .typography-button {
+  font-family: var(--button-primary-font-family);
+  font-size: var(--button-primary-font-size);
+  font-style: var(--button-primary-font-style);
+  font-weight: var(--button-primary-font-weight);
+  letter-spacing: var(--button-primary-letter-spacing);
+  line-height: var(--button-primary-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.primary .disabled {
+  color: var(--filltextbuttondisabled);
+}
+
+.primary .default.inverse {
+  color: var(--filltextbuttonprimary-inverse-default);
+}
+
+.primary .pressed.inverse {
+  color: var(--filltextbuttonprimary-inverse-pressed);
+}
+
+.primary .default.standard {
+  color: var(--filltextbuttonprimary-default);
+}
+
+.primary .pressed.standard {
+  color: var(--filltextbuttonprimary-pressed);
+}

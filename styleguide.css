@@ -1,0 +1,18 @@
+:root {
+  --backgroundbuttondisabled: rgba(233, 233, 233, 1);
+  --backgroundbuttonprimary-default: rgba(0, 240, 160, 1);
+  --backgroundbuttonprimary-inverse: rgba(0, 240, 160, 1);
+  --backgroundbuttonprimary-inverse-pressed: rgba(0, 200, 134, 1);
+  --backgroundbuttonprimary-pressed: rgba(0, 200, 134, 1);
+  --button-primary-font-family: "Roboto-Medium", Helvetica;
+  --button-primary-font-size: 16px;
+  --button-primary-font-style: normal;
+  --button-primary-font-weight: 500;
+  --button-primary-letter-spacing: 0px;
+  --button-primary-line-height: 24px;
+  --filltextbuttondisabled: rgba(117, 117, 117, 1);
+  --filltextbuttonprimary-default: rgba(26, 26, 26, 1);
+  --filltextbuttonprimary-inverse-default: rgba(26, 26, 26, 1);
+  --filltextbuttonprimary-inverse-pressed: rgba(26, 26, 26, 1);
+  --filltextbuttonprimary-pressed: rgba(26, 26, 26, 1);
+}
